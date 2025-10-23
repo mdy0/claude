@@ -29,11 +29,24 @@ At the end of the chat conversation, Claude will give you a skill file (in zip f
 ## On Claude Code for the Mac
 
 To get my newly-created Skill working in Claude Code on Mac OS:
-- **Install the latest version of Claude Code** (must be 2.0.22 or later). 
-   -- I had used the npm installer for my previous install, and that version does not play nice with Skills for some reason. 
-   -- I had to uninstall that, then install the latest version via the native Anthropic installer
+
+**One time setup*
+- **Install the latest version of Claude Code** (must be 2.0.22 or later).
 - **Create a skills directory** under the .claude directory
-- **Copy the new skill zip file** into the newly created skills folder,
+
+**To add your newly-created skill to Claude Code*
+- **Copy the new skill zip file** into the skills folder
 - **Unzip the skills file, then delete the zip**, leaving only the unzipped skill files, since Claude doesn’t use the zip file.
 - **Restart Claude Code** so that the new skill is recognized.
+
+**To use the new skill in Claude Code*
 - **Inside Claude Code, invoke the skill by name**: use the [skillname] skill to [perform this task]. Claude Code will respond and confirm that it is using the skill.
+
+**Troubleshooting*
+- I had used the npm installer for my previous Claude Code install, and that version does not play nice with Skills for some reason, even when I installed the latest version
+- So I had to use Terminal to uninstall my old version:\ 
+`npm uninstall -g @anthropic-ai/claude-code` 
+- Then install the latest version via the native Anthropic installer\
+`curl -fsSL https://claude.ai/install.sh | bash`
+
+
