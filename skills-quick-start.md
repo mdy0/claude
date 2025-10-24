@@ -12,7 +12,7 @@ Now that the skill-creator skill has been enabled, you can use it to create a sk
 
 **To create a skill file**
 - Start a new chat
-- *Prompt*: Use #skill-creator to create a skill that [performs this task] for [this purpose]. Ask me questions, one at a time, until you have enough context to create a useful skill.
+- **Prompt**: Use #skill-creator to create a skill that [performs this task] for [this purpose]. Ask me questions, one at a time, until you have enough context to create a useful skill.
 
 At the end of the chat conversation, Claude will give you a skill file (in zip format) that you can download (and share).
 
