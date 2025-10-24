@@ -3,9 +3,9 @@
 **One-time configuration**:
 - Log into Claude (must be Pro, Max, Team, or Enterprise for this feature to work).
 - Go to Settings --> Capabilities
-- In the screen that appears
-   -- turn on “Code Execution and File Creation”
-   -- turn on “Skills”
+- In the screen that appears\
+   -- turn on “Code Execution and File Creation”\
+   -- turn on “Skills”\
    -- Then scroll down further and turn on the “skill-creator” skill
 
 Now that the skill-creator skill has been enabled, you can use it to create a skill file.
@@ -23,7 +23,7 @@ At the end of the chat conversation, Claude will give you a skill file (in zip f
 - Turn on the newly uploaded skill.
 
 **To use the skill**
-- In a new chat, use the prompt format: Use the [skill-name] skill to do [task] using these inputs: [paste or attach your input files]
+- **In a new chat, use the prompt format**: Use the [skill-name] skill to do [task] using these inputs: [paste or attach your input files]
 - Or alternatively: Use #your-skill-name to do [task] using these inputs: [paste or attach your input files]
 
 ## On Claude Code for the Mac
