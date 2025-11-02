@@ -1,6 +1,6 @@
 Last updated: November 2, 2025
 
-> **Note**: The Claude Code section of this guide has been tested on macOS Sonoma. Steps may vary on other operating systems.
+> **Note**: The Claude Code section of this guide has been tested on macOS Sonoma. Steps may vary on other operating systems. 
 
 ## On Claude Web
 
@@ -89,3 +89,4 @@ If you installed Claude Code via npm and Skills aren't working:
    ```bash
    curl -fsSL https://claude.ai/install.sh | bash
    ```
+If you run into issues, take a screenshot of the error, give it to Claude, and ask it for help.
