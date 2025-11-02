@@ -4,7 +4,7 @@ Last updated: November 2, 2025
 
 A beginner-friendly guide to getting started with Claude Skills.
 
-> **Note**: This guide has been tested on macOS Sonoma. Steps may vary on other operating systems.
+> **Note**: This Claude Code section of this guide has been tested on macOS Sonoma. Steps may vary on other operating systems.
 
 ## What are Claude Skills?
 
