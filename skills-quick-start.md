@@ -1,6 +1,6 @@
 Last updated: November 2, 2025
 
-> **Note**: This Claude Code section of this guide has been tested on macOS Sonoma. Steps may vary on other operating systems.
+> **Note**: The Claude Code section of this guide has been tested on macOS Sonoma. Steps may vary on other operating systems.
 
 ## On Claude Web
 
